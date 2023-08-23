@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/headshot.png'
+import ME from '../../assets/head.png'
 import {FaAward} from 'react-icons/fa'
 import {ImUsers} from 'react-icons/im'
 import {MdFolderCopy} from 'react-icons/md'
@@ -40,8 +40,7 @@ const About = () => {
           </div>
 
           <p>
-            fewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-            wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+            
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
