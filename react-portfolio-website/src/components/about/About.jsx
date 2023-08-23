@@ -40,7 +40,10 @@ const About = () => {
           </div>
 
           <p>
-            
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut doloremque
+quaerat perferendis consectetur consequuntur impedit eum magni
+dolorem perspiciatis repellendus quisquam reprehenderit, error
+voluptatem necessitatibus. Hic minus cum soluta iure?
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
