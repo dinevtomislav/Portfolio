@@ -67,7 +67,7 @@ const Experience = () => {
         <h4>React</h4>
         <small className='text-light'>Experienced</small>
         </article>
-        </div>
+        </div> 
         </div>
       </div>
     </section>
