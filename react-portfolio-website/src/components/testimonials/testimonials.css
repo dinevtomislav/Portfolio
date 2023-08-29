@@ -23,3 +23,22 @@
         width: 80%;
         margin: 0.8rem auto 0;
         }
+/* ================ MEDIA QUERIES (Medium Devices) ============================= */
+
+@media screen and (max-width: 1024px) {
+    .container.testimonials_container {
+        width: 60%;
+    }
+}
+
+/* ================ MEDIA QUERIES (Small Devices) ============================= */
+
+@media screen and (max-width: 600px) {
+    .container.testimonials_container {
+        width: var(--container-width-sm);
+    }
+
+    .client_review {
+        width: var(--container-width-sm);
+    }
+}
