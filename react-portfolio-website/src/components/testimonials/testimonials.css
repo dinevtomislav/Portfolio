@@ -1,7 +1,7 @@
-.container.testimonials_container {
+.container.testimonials__container {
     width: 40%;
     }
-.client_avatar {
+.client__avatar {
     width: 4rem;
     aspect-ratio: 1/1;
     overflow: hidden;
@@ -16,7 +16,7 @@
     border-radius: 2rem;
     user-select: none;
     }
-.client_review {
+.client__review {
         color: var(--color-light);
         font-weight: 300;
         display: block;
@@ -26,7 +26,7 @@
 /* ================ MEDIA QUERIES (Medium Devices) ============================= */
 
 @media screen and (max-width: 1024px) {
-    .container.testimonials_container {
+    .container.testimonials__container {
         width: 60%;
     }
 }
@@ -34,11 +34,11 @@
 /* ================ MEDIA QUERIES (Small Devices) ============================= */
 
 @media screen and (max-width: 600px) {
-    .container.testimonials_container {
+    .container.testimonials__container {
         width: var(--container-width-sm);
     }
 
-    .client_review {
+    .client__review {
         width: var(--container-width-sm);
     }
 }
