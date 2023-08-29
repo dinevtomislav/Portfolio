@@ -31,3 +31,15 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+/* ================ MEDIA QUERIES (Medium Devices) ============================= */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* ================ MEDIA QUERIES (Small Devices) ============================= */
+
+@media screen and (max-width: 600px) {
+
+}
