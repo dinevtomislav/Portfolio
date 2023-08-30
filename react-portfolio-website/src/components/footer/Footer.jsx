@@ -1,5 +1,7 @@
 import React from 'react'
 import './footer.css'
+import {BsLinkedin} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
 
 const footer = () => {
   return (
@@ -16,7 +18,10 @@ const footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
 
-      <div className='footer__socials'></div>
+      <div className='footer__socials'>
+        <a href='https://www.linkedin.com/in/tomislav-dinev/' target='_blank'><BsLinkedin/></a>
+        <a href='https://github.com/dinevtomislav' target='_blank'><FaGithub/></a>
+      </div>
 
       <div className='footer__copyright'>
         <small>&copy; 2023 Tomislav Dinev. All Rights Reserved</small>
