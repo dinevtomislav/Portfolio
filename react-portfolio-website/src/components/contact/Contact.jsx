@@ -1,8 +1,19 @@
 import React from 'react'
 import './contact.css'
 import {TfiEmail} from 'react-icons/tfi'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contacts = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_mbak9xu', 'template_igah14d', form.current, 'xYO-fzOQ1TuXdrvfY')
+
+    e.target.reset()
+  };
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -17,7 +28,7 @@ const Contacts = () => {
             <a href='mailto:dinevtomislav@gmail.com' target='_blank'>Send A Message!</a>
           </article> 
         </div>
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <textarea name='message' rows='7' placeholder='Your Message' required />
