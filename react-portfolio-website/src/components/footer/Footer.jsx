@@ -15,6 +15,12 @@ const footer = () => {
         <li><a href='#testimonials'>Testimonials</a></li>
         <li><a href='#contact'>Contact</a></li>
       </ul>
+
+      <div className='footer__socials'></div>
+
+      <div className='footer__copyright'>
+        <small>&copy; 2023 Tomislav Dinev. All Rights Reserved</small>
+      </div>
     </footer>
   )
 }
