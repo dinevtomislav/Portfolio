@@ -11,7 +11,7 @@ const Contacts = () => {
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
-            <TfiEmail/>
+            <TfiEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>dinevtomislav@gmail.com</h5>
             <a href='mailto:dinevtomislav@gmail.com' target='_blank'>Send A Message!</a>
