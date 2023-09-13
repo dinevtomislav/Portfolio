@@ -20,9 +20,49 @@ const Header = () => {
   return (
     <header>
       <div className='container header__container'>
-        <h5 className='bubbly'> Hello I'm</h5>
-        <h1 className='bubbly'>Tomislav Dinev</h1>
-        <h5 className='bubbly'>Fullstack Developer</h5>
+      <h5>
+        <span className='bubbly'>H</span>
+        <span className='bubbly'>e</span>
+        <span className='bubbly'>l</span>
+        <span className='bubbly'>l</span>
+        <span className='bubbly'>o</span>
+        <span className='bubbly'>&nbsp;I'</span>
+        <span className='bubbly'>m</span>
+      </h5>
+      <h1>
+        <span className='bubbly'>T</span>
+        <span className='bubbly'>o</span>
+        <span className='bubbly'>m</span>
+        <span className='bubbly'>i</span>
+        <span className='bubbly'>s</span>
+        <span className='bubbly'>l</span>
+        <span className='bubbly'>a</span>
+        <span className='bubbly'>v</span>
+        <span className='bubbly'>&nbsp;D</span>
+        <span className='bubbly'>i</span>
+        <span className='bubbly'>n</span>
+        <span className='bubbly'>e</span>
+        <span className='bubbly'>v</span>
+      </h1>
+      <h5>
+        <span className='bubbly'>F</span>
+        <span className='bubbly'>u</span>
+        <span className='bubbly'>l</span>
+        <span className='bubbly'>l</span>
+        <span className='bubbly'>s</span>
+        <span className='bubbly'>t</span>
+        <span className='bubbly'>a</span>
+        <span className='bubbly'>c</span>
+        <span className='bubbly'>k</span>
+        <span className='bubbly'>&nbsp;D</span>
+        <span className='bubbly'>e</span>
+        <span className='bubbly'>v</span>
+        <span className='bubbly'>l</span>
+        <span className='bubbly'>o</span>
+        <span className='bubbly'>p</span>
+        <span className='bubbly'>e</span>
+        <span className='bubbly'>r</span>
+      </h5>
         <CTA />
         <HeaderSocials />
 
