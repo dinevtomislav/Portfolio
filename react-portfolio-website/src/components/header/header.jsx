@@ -17,6 +17,21 @@ const Header = () => {
     image.onload = loadImage;
   }, []);
 
+  useEffect(() => {
+    if (imageLoaded) {
+      // Delay the drawing effect
+      setTimeout(() => {
+        document.querySelector('.background-shape').style.width = '100%';
+      }, 500); // Adjust the delay as needed
+
+      // Show the image
+      setTimeout(() => {
+        document.querySelector('.me-image').style.opacity = '1';
+        document.querySelector('.me-image').style.transform = 'scale(1)';
+      }, 1500); // Adjust the delay as needed
+    }
+  }, [imageLoaded]);
+
   return (
     <header>
       <div className='container header__container'>
@@ -66,8 +81,9 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
 
-        <div className={`me ${imageLoaded ? 'me-loaded' : ''}`}>
-          <img src={ME} alt="" />
+        <div className='me'>
+          <div className='background-shape'></div>
+          <img src={ME} alt='' className='me-image' />
         </div>
 
         <a href='#contact' className='scroll__down'>Scroll Down</a>

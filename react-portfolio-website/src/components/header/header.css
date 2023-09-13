@@ -55,15 +55,34 @@ header {
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+.me::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    background: linear-gradient(var(--color-primary), transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: drawBackground 1.6s ease-in-out;
+  }
 .me img {
     opacity: 0;
     transform: scale(0);
     transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
-  .me-loaded img {
+  .me img.loaded {
     opacity: 1;
     transform: scale(1);
+  }
+
+  @keyframes drawBackground {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
   }
 
 /* ================ Scroll Down ================== */
