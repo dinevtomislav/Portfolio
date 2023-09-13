@@ -68,7 +68,7 @@ header {
 .me img {
     opacity: 0;
     transform: scale(0);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.3s ease, transform 0.5s ease;
   }
 
   .me img.loaded {
@@ -95,35 +95,27 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
-
-.bubbly {
-    display: inline-block;
-    animation: bubbly 2s infinite;
-    transform-origin: center;
+  
+  .header-loaded .bubbly:hover {
+    color: var(--color-primary);
+    transform: rotate(0deg);
+    animation: jump 0.5s ease-in-out;
   }
-
-  @keyframes jump {
+  
+  @keyframes appear {
     0% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-3px);
-    }
-    50% {
-      transform: translateY(0);
-    }
-    75% {
-      transform: translateY(-3px);
+      opacity: 0;
+      transform: translateY(-10px);
     }
     100% {
+      opacity: 1;
       transform: translateY(0);
     }
   }
   
-  .bubbly:hover {
-    color: var(--color-primary);
-    transform:  rotate(0deg);
-    animation: bubbly 2s infinite, jump 0.5s ease-in-out;
+  .header-loaded .bubbly {
+    opacity: 0;
+    animation: appear 0.5s ease-in-out forwards;
   }
 
 /* ================ MEDIA QUERIES (Medium Devices) ============================= */

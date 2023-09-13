@@ -19,16 +19,17 @@ const Header = () => {
 
   useEffect(() => {
     if (imageLoaded) {
-      // Delay the drawing effect
+      const header = document.querySelector('header');
+      header.classList.add('header-loaded');
+      
       setTimeout(() => {
         document.querySelector('.background-shape').style.width = '100%';
-      }, 500); // Adjust the delay as needed
+      }, 500); 
 
-      // Show the image
       setTimeout(() => {
         document.querySelector('.me-image').style.opacity = '1';
         document.querySelector('.me-image').style.transform = 'scale(1)';
-      }, 1500); // Adjust the delay as needed
+      }, 1500);
     }
   }, [imageLoaded]);
 
