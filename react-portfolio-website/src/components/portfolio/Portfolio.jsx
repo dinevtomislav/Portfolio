@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/connectify.png'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/brain.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -18,9 +18,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'Braincrastination - a scheduling site that rewards points',
+    github: 'https://github.com/JackDMoore/Brainiac-Brigade',
+    demo: 'https://brainiac-brigade.onrender.com/'
   },
   {
     id: 3,
