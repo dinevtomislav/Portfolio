@@ -3,7 +3,8 @@ import './portfolio.css'
 import IMG1 from '../../assets/connectify.png'
 import IMG2 from '../../assets/brain.png'
 import IMG3 from '../../assets/library.png'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/trvia.png'
+import video from '../../assets/pr1.mp4'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
@@ -32,9 +33,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+    title: 'Infinity - A quiz game to help students pick GCSE non-STEM subjects.',
+    github: 'https://github.com/dinevtomislav/1st-project-Infinity',
+    demo: video
   },
   {
     id: 5,
