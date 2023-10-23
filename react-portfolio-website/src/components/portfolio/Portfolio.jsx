@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/connectify.png'
 import IMG2 from '../../assets/brain.png'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG3 from '../../assets/library.png'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
@@ -25,9 +25,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'Florin County Council Library - a library application',
+    github: 'https://github.com/JackDMoore/mvp_library_app',
+    demo: 'https://florin-county-library-app-s.onrender.com/'
   },
   {
     id: 4,
