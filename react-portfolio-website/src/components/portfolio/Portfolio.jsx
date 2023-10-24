@@ -5,8 +5,7 @@ import IMG2 from '../../assets/brain.png'
 import IMG3 from '../../assets/library.png'
 import IMG4 from '../../assets/trvia.png'
 import video from '../../assets/pr1.mp4'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+
 
 const data = [
   {

@@ -1,9 +1,6 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules';
@@ -17,28 +14,24 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-  avatar: AVTR1,
   name: 'Tina Snow',
   review: `Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro
   blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores
   deserunt explicabo nostrum ducimus quasi?`
   },
   {
-  avatar: AVTR2,
   name: 'Shatta Wale',
   review: `Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro
   blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores
   deserunt explicabo nostrum ducimus quasi?`
   },
   {
-  avatar: AVTR3,
   name: 'Kwame Despite',
   review: `Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro
   blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores
   deserunt explicabo nostrum ducimus quasi?`
   },
   {
-  avatar: AVTR4,
   name: 'Nana Ama McBrown',
   review: `Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro
   blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores
