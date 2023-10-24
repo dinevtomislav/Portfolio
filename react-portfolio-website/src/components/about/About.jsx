@@ -35,7 +35,7 @@ const About = () => {
             <article className='about__card'>
             <MdFolderCopy className='about__icon'/>
               <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <small>4+ Completed Projects</small>
             </article>
           </div>
 
