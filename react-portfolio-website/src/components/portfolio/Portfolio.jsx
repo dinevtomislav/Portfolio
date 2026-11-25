@@ -19,7 +19,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Connectify - a platform for employees and business professionals to colaborate',
+    title: 'Connectify - a platform for employees and business professionals to collaborate',
     github: 'https://github.com/mithurssan/connectify_frontend',
     demo: 'https://connectifysite.netlify.app/'
   },
