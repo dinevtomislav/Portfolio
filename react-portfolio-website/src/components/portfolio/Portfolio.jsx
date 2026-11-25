@@ -4,10 +4,18 @@ import IMG1 from '../../assets/connectify.png'
 import IMG2 from '../../assets/brain.png'
 import IMG3 from '../../assets/library.png'
 import IMG4 from '../../assets/trvia.png'
+import IMG5 from '../../assets/olist_dashboard.png'
 import video from '../../assets/pr1.mp4'
 
 
 const data = [
+    {
+    id: 5,
+    image: IMG5,
+    title: 'Late deliveries and customer reviews - Olist analysis in Python, SQL and Power BI',
+    github: 'https://github.com/dinevtomislav/olist-delivery-analysis',
+    demo: IMG5
+  },
   {
     id: 1,
     image: IMG1,
