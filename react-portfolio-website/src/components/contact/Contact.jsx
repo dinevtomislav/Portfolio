@@ -1,42 +1,33 @@
 import React from 'react'
 import './contact.css'
 import {TfiEmail} from 'react-icons/tfi'
-import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import {BsLinkedin} from 'react-icons/bs'
 
-const Contacts = () => {
-  const form = useRef();
+const options = [
+  {icon: <TfiEmail className='contact__option-icon'/>, title: 'Email',
+   text: 'dinevtomislav@gmail.com', link: 'mailto:dinevtomislav@gmail.com', cta: 'Send an email'},
+  {icon: <BsLinkedin className='contact__option-icon'/>, title: 'LinkedIn',
+   text: 'Tomislav Dinev', link: 'https://www.linkedin.com/in/tomislav-dinev/', cta: 'Message me'},
+]
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_mbak9xu', 'template_igah14d', form.current, 'xYO-fzOQ1TuXdrvfY')
-
-    e.target.reset()
-  };
+const Contact = () => {
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className='container contact__container'>
-        <div className='contact__options'>
-          <article className='contact__option'>
-            <TfiEmail className='contact__option-icon'/>
-            <h4>Email</h4>
-            <h5>dinevtomislav@gmail.com</h5>
-            <a href='mailto:dinevtomislav@gmail.com' target='_blank'>Send A Message!</a>
-          </article> 
-        </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type='text' name='name' placeholder='Your Full Name' required />
-          <input type='email' name='email' placeholder='Your Email' required />
-          <textarea name='message' rows='7' placeholder='Your Message' required />
-          <button type='submit' className='btn btn-primary'>Send Message</button>
-        </form>
+        {options.map(({icon, title, text, link, cta}) => (
+          <article key={title} className='contact__option'>
+            {icon}
+            <h4>{title}</h4>
+            <h5>{text}</h5>
+            <a href={link} target='_blank' rel='noreferrer'>{cta}</a>
+          </article>
+        ))}
       </div>
     </section>
   )
 }
 
-export default Contacts
+export default Contact
