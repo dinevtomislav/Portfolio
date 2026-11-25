@@ -61,23 +61,17 @@ const Header = () => {
         <span className='bubbly'>v</span>
       </h1>
       <h5>
-        <span className='bubbly'>F</span>
-        <span className='bubbly'>u</span>
-        <span className='bubbly'>l</span>
-        <span className='bubbly'>l</span>
-        <span className='bubbly'>s</span>
+        <span className='bubbly'>D</span>
+        <span className='bubbly'>a</span>
         <span className='bubbly'>t</span>
         <span className='bubbly'>a</span>
-        <span className='bubbly'>c</span>
-        <span className='bubbly'>k</span>
-        <span className='bubbly'>&nbsp;D</span>
-        <span className='bubbly'>e</span>
-        <span className='bubbly'>v</span>
+        <span className='bubbly'>&nbsp;A</span>
+        <span className='bubbly'>n</span>
+        <span className='bubbly'>a</span>
         <span className='bubbly'>l</span>
-        <span className='bubbly'>o</span>
-        <span className='bubbly'>p</span>
-        <span className='bubbly'>e</span>
-        <span className='bubbly'>r</span>
+        <span className='bubbly'>y</span>
+        <span className='bubbly'>s</span>
+        <span className='bubbly'>t</span>
       </h5>
         <CTA />
         <HeaderSocials />
@@ -87,7 +81,7 @@ const Header = () => {
           <img src={ME} alt='' className='me-image' />
         </div>
 
-        <a href='#contact' className='scroll__down'>Scroll Down</a>
+        <a href='#portfolio' className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )
